@@ -5,9 +5,9 @@
 
 ```
 pip install scrapy
-cd socialScraper/socialScraper/spiders
-rm _.json
-rm _.csv
+cd telegram-enricher/socialScraper/socialScraper/spiders/
+rm *.json
+rm *.csv
 scrapy runspider telegramEnricher.py -o telegram.json -o telegram.csv
 
 ```
